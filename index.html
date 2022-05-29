@@ -6,14 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tic tac toe</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <!-- container for all contents -->
     <div class="container">
+        <!-- heading -->
         <h1>Tic Tac Toe</h1>
-        <div class="current-move"></div>
-        <p>Player <span id="player-number">1</span>, it's your turn.</p>
+        <p>Player <span id="player-number">1</span>, it's your turn: <span id="player-mark">X</span></p>
         </div>
+        <table>
+            <tr>
+                <td id="0"></td>
+                <td id="1"></td>
+                <td id="2"></td>
+            </tr>
+            <tr>
+                <td id="3"></td>
+                <td id="4"></td>
+                <td id="5"></td>
+            </tr>
+            <tr>
+                <td id="6"></td>
+                <td id="7"></td>
+                <td id="8"></td>
+            </tr>
+        </table>
     </div>
 </body>
 </html>

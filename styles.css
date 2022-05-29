@@ -6,6 +6,7 @@
 
 body {
     background-color:#ffc8dd;
+    overflow: hidden;
 }
 
 .container {
@@ -36,4 +37,32 @@ p {
     color: white;
     border-bottom: 3px solid black;
     padding-bottom: 5px;
+    user-select: none;
+}
+
+td > p {
+    color: black;
+    border-bottom: none;
+    text-align: center;
+    font-size: 5rem;
+}
+
+table, td {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+table {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    border-spacing: 10px;
+}
+
+
+td {
+    background-color: white;
+    border: 15px solid #bde0fe;
+    height: 7rem;
+    width: 7rem;
 }
